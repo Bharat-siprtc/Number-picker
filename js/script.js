@@ -2,7 +2,7 @@
 let count=0;
 let btnVisible;
 function incrementNo() {
-    if (count==0) {
+    if (count==1) {
         // currentVal+=1;
         document.getElementById("btn-dec").disabled=false;
     }
@@ -12,7 +12,7 @@ function incrementNo() {
 function decrementNo() {
     count-=1;
     document.getElementById("display").textContent=count;
-    if(count==0){
+    if(count==1){
         document.getElementById("btn-dec").disabled=true;
     }
 }
