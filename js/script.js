@@ -1,5 +1,5 @@
 // let minValue=0;
-let count=0;
+let count=1;
 let btnVisible;
 function incrementNo() {
     if (count==1) {
